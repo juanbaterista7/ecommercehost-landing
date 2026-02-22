@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark indigo rounded square -->
+  <rect width="512" height="512" rx="96" fill="url(#g1)"/>
+
+  <!-- Abstract "E" + server/hosting lines -->
+  <g transform="translate(100, 100)">
+    <!-- Three horizontal bars representing server/hosting stacks -->
+    <rect x="0" y="0" width="312" height="56" rx="12" fill="white" opacity="0.12"/>
+    <rect x="0" y="78" width="312" height="56" rx="12" fill="white" opacity="0.12"/>
+    <rect x="0" y="156" width="312" height="56" rx="12" fill="white" opacity="0.12"/>
+
+    <!-- Bright accent bars forming the "E" -->
+    <rect x="20" y="12" width="120" height="32" rx="8" fill="#818CF8"/>
+    <rect x="20" y="90" width="90" height="32" rx="8" fill="#A78BFA"/>
+    <rect x="20" y="168" width="120" height="32" rx="8" fill="#818CF8"/>
+
+    <!-- Vertical connector for "E" -->
+    <rect x="20" y="12" width="32" height="188" rx="8" fill="#6366F1"/>
+
+    <!-- Status dots (server online) -->
+    <circle cx="278" cy="28" r="10" fill="#34D399"/>
+    <circle cx="278" cy="106" r="10" fill="#34D399"/>
+    <circle cx="278" cy="184" r="10" fill="#34D399"/>
+  </g>
+
+  <!-- "HOST" text at bottom -->
+  <text x="256" y="395" text-anchor="middle" font-family="system-ui, -apple-system, 'Helvetica Neue', sans-serif" font-size="64" font-weight="700" fill="white" letter-spacing="16" opacity="0.9">HOST</text>
+</svg>
