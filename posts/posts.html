@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posts Instagram - E-CommerceHost</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dom-to-image-more@3/dist/dom-to-image-more.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
@@ -443,16 +443,14 @@
             btn.textContent = 'Generando...';
             btn.disabled = true;
             try {
-                const canvas = await html2canvas(el, {
+                const dataUrl = await domtoimage.toPng(el, {
                     width: 1080,
                     height: 1080,
-                    scale: 1,
-                    useCORS: true,
-                    backgroundColor: '#EEEDF7'
+                    style: { transform: 'scale(1)', transformOrigin: 'top left' }
                 });
                 const link = document.createElement('a');
                 link.download = filename + '.png';
-                link.href = canvas.toDataURL('image/png');
+                link.href = dataUrl;
                 link.click();
             } catch (e) {
                 alert('Error: ' + e.message);
