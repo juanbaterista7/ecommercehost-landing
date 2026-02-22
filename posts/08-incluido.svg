@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg8)"/>
+
+  <!-- Title -->
+  <text x="540" y="130" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="white">¿QUÉ INCLUYE</text>
+  <text x="540" y="200" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="#818CF8">TU TIENDA?</text>
+
+  <!-- Grid 2x3 -->
+  <!-- Row 1 -->
+  <rect x="80" y="270" width="430" height="160" rx="20" fill="white" opacity="0.06"/>
+  <text x="170" y="340" font-family="system-ui, sans-serif" font-size="40" fill="white">&#x1F310;</text>
+  <text x="220" y="340" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="white">Dominio propio</text>
+  <text x="220" y="380" font-family="system-ui, sans-serif" font-size="20" fill="white" opacity="0.4">tutienda.com.co</text>
+
+  <rect x="570" y="270" width="430" height="160" rx="20" fill="white" opacity="0.06"/>
+  <text x="660" y="340" font-family="system-ui, sans-serif" font-size="40" fill="white">&#x1F6D2;</text>
+  <text x="710" y="340" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="white">WooCommerce</text>
+  <text x="710" y="380" font-family="system-ui, sans-serif" font-size="20" fill="white" opacity="0.4">Catálogo + carrito + pagos</text>
+
+  <!-- Row 2 -->
+  <rect x="80" y="460" width="430" height="160" rx="20" fill="white" opacity="0.06"/>
+  <text x="170" y="530" font-family="system-ui, sans-serif" font-size="40" fill="white">&#x1F3A8;</text>
+  <text x="220" y="530" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="white">Tema Flatsome</text>
+  <text x="220" y="570" font-family="system-ui, sans-serif" font-size="20" fill="white" opacity="0.4">Diseño profesional premium</text>
+
+  <rect x="570" y="460" width="430" height="160" rx="20" fill="white" opacity="0.06"/>
+  <text x="660" y="530" font-family="system-ui, sans-serif" font-size="40" fill="white">&#x1F4B3;</text>
+  <text x="710" y="530" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="white">Pasarela de pago</text>
+  <text x="710" y="570" font-family="system-ui, sans-serif" font-size="20" fill="white" opacity="0.4">Wompi, ePayco, etc.</text>
+
+  <!-- Row 3 -->
+  <rect x="80" y="650" width="430" height="160" rx="20" fill="white" opacity="0.06"/>
+  <text x="170" y="720" font-family="system-ui, sans-serif" font-size="40" fill="white">&#x1F69A;</text>
+  <text x="220" y="720" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="white">Envíos configurados</text>
+  <text x="220" y="760" font-family="system-ui, sans-serif" font-size="20" fill="white" opacity="0.4">Tarifas nacionales listas</text>
+
+  <rect x="570" y="650" width="430" height="160" rx="20" fill="white" opacity="0.06"/>
+  <text x="660" y="720" font-family="system-ui, sans-serif" font-size="40" fill="white">&#x1F4F1;</text>
+  <text x="710" y="720" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="white">100% responsive</text>
+  <text x="710" y="760" font-family="system-ui, sans-serif" font-size="20" fill="white" opacity="0.4">Perfecta en celular</text>
+
+  <!-- Bottom -->
+  <text x="540" y="910" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" font-weight="600" fill="white" opacity="0.5">+ hasta 30 productos cargados</text>
+  <text x="540" y="960" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#818CF8">Setup desde $1.000.000 COP</text>
+
+  <!-- Bottom brand -->
+  <text x="540" y="1040" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="white" opacity="0.3" letter-spacing="6">E-COMMERCEHOST</text>
+</svg>

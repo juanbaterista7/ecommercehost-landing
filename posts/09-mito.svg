@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg9)"/>
+
+  <!-- Big X -->
+  <text x="540" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="180" font-weight="900" fill="#EF4444" opacity="0.15">MITO</text>
+
+  <!-- Main text -->
+  <text x="540" y="420" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="600" fill="white" opacity="0.5">"Para tener tienda virtual</text>
+  <text x="540" y="480" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="600" fill="white" opacity="0.5">necesito saber de tecnología"</text>
+
+  <!-- Divider -->
+  <rect x="440" y="530" width="200" height="4" rx="2" fill="#818CF8" opacity="0.5"/>
+
+  <!-- Truth -->
+  <text x="540" y="620" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="#34D399">FALSO</text>
+
+  <text x="540" y="710" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" font-weight="400" fill="white" opacity="0.6">Nosotros configuramos todo:</text>
+  <text x="540" y="760" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="500" fill="white" opacity="0.8">hosting, tienda, pagos, envíos y diseño</text>
+
+  <text x="540" y="850" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" font-weight="700" fill="white">Tú solo necesitas saber</text>
+  <text x="540" y="900" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" font-weight="700" fill="#818CF8">qué quieres vender</text>
+
+  <!-- Bottom brand -->
+  <text x="540" y="1040" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="white" opacity="0.3" letter-spacing="6">E-COMMERCEHOST</text>
+</svg>

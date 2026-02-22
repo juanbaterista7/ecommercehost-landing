@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg10" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg10)"/>
+
+  <!-- Decorative elements -->
+  <circle cx="150" cy="200" r="200" fill="#4F46E5" opacity="0.06"/>
+  <circle cx="900" cy="850" r="250" fill="#7C3AED" opacity="0.06"/>
+
+  <!-- Emoji rocket -->
+  <text x="540" y="250" text-anchor="middle" font-family="system-ui, sans-serif" font-size="120">&#x1F680;</text>
+
+  <!-- Main text -->
+  <text x="540" y="420" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="60" font-weight="800" fill="white">¿LISTA PARA</text>
+  <text x="540" y="500" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="60" font-weight="800" fill="white">VENDER</text>
+  <text x="540" y="580" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="60" font-weight="800" fill="#818CF8">ONLINE?</text>
+
+  <!-- Subtext -->
+  <text x="540" y="670" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="400" fill="white" opacity="0.5">En 7 días tu tienda puede estar</text>
+  <text x="540" y="710" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="400" fill="white" opacity="0.5">recibiendo pedidos</text>
+
+  <!-- WhatsApp CTA -->
+  <rect x="200" y="790" width="680" height="100" rx="50" fill="#25D366"/>
+  <text x="540" y="852" text-anchor="middle" font-family="system-ui, sans-serif" font-size="36" font-weight="700" fill="white">Escríbenos por WhatsApp</text>
+
+  <!-- Extra info -->
+  <text x="540" y="940" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" font-weight="500" fill="white" opacity="0.4">Setup desde $1.000.000 COP | Hosting desde $50.000/mes</text>
+
+  <!-- Bottom brand -->
+  <text x="540" y="1040" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="white" opacity="0.3" letter-spacing="6">E-COMMERCEHOST</text>
+</svg>

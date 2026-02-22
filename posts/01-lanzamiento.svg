@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg1)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="900" cy="180" r="300" fill="#4F46E5" opacity="0.08"/>
+  <circle cx="180" cy="900" r="250" fill="#7C3AED" opacity="0.06"/>
+
+  <!-- Logo mark small -->
+  <g transform="translate(80, 70) scale(0.18)">
+    <rect x="0" y="0" width="312" height="56" rx="12" fill="white" opacity="0.12"/>
+    <rect x="0" y="78" width="312" height="56" rx="12" fill="white" opacity="0.12"/>
+    <rect x="0" y="156" width="312" height="56" rx="12" fill="white" opacity="0.12"/>
+    <rect x="20" y="12" width="120" height="32" rx="8" fill="#818CF8"/>
+    <rect x="20" y="90" width="90" height="32" rx="8" fill="#A78BFA"/>
+    <rect x="20" y="168" width="120" height="32" rx="8" fill="#818CF8"/>
+    <rect x="20" y="12" width="32" height="188" rx="8" fill="#6366F1"/>
+    <circle cx="278" cy="28" r="10" fill="#34D399"/>
+    <circle cx="278" cy="106" r="10" fill="#34D399"/>
+    <circle cx="278" cy="184" r="10" fill="#34D399"/>
+  </g>
+
+  <!-- Main text -->
+  <text x="540" y="380" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="white" opacity="0.5">TU TIENDA VIRTUAL</text>
+  <text x="540" y="480" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="96" font-weight="800" fill="white">LISTA PARA</text>
+  <text x="540" y="590" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="96" font-weight="800" fill="#818CF8">VENDER</text>
+
+  <!-- Subtext -->
+  <text x="540" y="700" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="white" opacity="0.6">en solo 7 días</text>
+
+  <!-- CTA bar -->
+  <rect x="140" y="800" width="800" height="80" rx="40" fill="#4F46E5"/>
+  <text x="540" y="852" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white">ecommercehost.co</text>
+
+  <!-- Bottom brand -->
+  <text x="540" y="1020" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="white" opacity="0.3" letter-spacing="6">E-COMMERCEHOST</text>
+</svg>
